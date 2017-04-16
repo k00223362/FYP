@@ -1,0 +1,820 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; color:#555; margin:0; padding:0; }
+
+#page { max-width:1200px; margin: 0 auto; position: relative; }
+/* Basic styles 1 em means 1 times base fonts fonts will look better across multiple devices and rendered according to the property */
+
+h1{ margin: 0 0 1em 0; font-size: 2.8em; font-weight:700; }
+h2{ margin: 0 0 .5em 0; font-size: 1.6em; font-weight:700; line-height: 1.1em; }
+h3{ margin: 0 0 .5em 0; font-size: 1.3em; font-weight:700; }
+h4{ margin: 0 0 1.5em 0; font-size: 1em; font-weight:700; }
+
+p { margin: 0 0 1em 0;  }
+p1{ padding-left: 30%;}
+a { color:#007eff; }
+a:visited { color: #65b1ff; }
+
+a.btn {font-size: 1.2em; text-decoration: none; color: #A9A9A9; border: 1px solid #D3D3D3; padding: 4px 15px; transition: background-color.5s;}
+a.btn:hover { background-color: rgba(0,0,0,.3);}
+/* Header */
+
+header { height: 180px; background:black url(../im) no-repeat center bottom; position:relative; }
+
+header a.logo {
+    z-index: 1;
+    position: absolute; display:block; width: 160px; height:66px;
+    background: url(../img) no-repeat 0 0; background-size: contain;
+    top: 15px; left: 20px;
+}
+
+
+img.article_pic1 {
+    width: 600px;
+    height:336px
+}
+img.article_pic2 {
+    width: 400px;
+    height:226px
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+button2{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+/* checking */
+
+
+
+
+
+
+
+
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn1 {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.signupbtn1 {
+    background-color: #4caf50;
+    height: 47px;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn1,.signupbtn1 {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container1 {
+    padding: 16px;
+}
+
+/* Clear floats */
+.cancel::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn1, .signupbtn1 {
+       width: 100%;
+    }
+}
+
+
+header a.logo span {display:none;}
+
+header div.hero { position:absolute; width: 82%; top: 10px; left: 40%; }
+header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color: #fff}
+/* CSS Document for SearchBox */
+#search-box {
+position: relative;
+width: 20%;
+margin: 80px;
+float:right;
+
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+button3:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn3 {
+    width: 10%;
+   margin: 0px;
+      position:absolute; 
+  margin-left:20%;
+  
+  margin-top:-12px;
+    padding: 0px 10px;
+    background-color: #f44336;
+    padding-left: 0px;
+}
+button3 {
+    width: 10%;
+    margin: 0px;
+    /* position: absolute; */
+    margin-left: 20%;
+    margin-top: -37px;
+    padding: 2px 20px;
+    background-color: #4caf50;
+    padding-left: 9px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+   position:absolute; 
+  margin-left:50%;
+  
+  margin-top:-12px;
+  
+    
+}
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+      
+    }
+    .cancelbtn3 {
+       width: 100%;
+    }
+}
+
+
+#search-form 
+{
+height: 35px;
+border: 1px solid #999;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background-color: #fff;
+overflow: hidden;
+}
+
+#search-text 
+{
+font-size: 14px;
+color: #ddd;
+border-width: 0;
+background: transparent;
+}
+
+#search-box input[type="text"]
+{
+width: 90%;
+padding: 11px 0 12px 1em;
+color: #333;
+outline: none;
+}
+
+
+/* section -All */
+
+section { padding: 0 30px; }
+section::after { content:''; display: block; clear: both;}
+
+/* section -Main */
+
+section.main { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.main aside { width: 33%; float: left; text-align:Left; } .content { margin: 15px; background: no-repeat center top;}
+
+section.fullarticle aside { width: 100%; float: left; text-align:Left; } .content { margin: 15px; background: no-repeat center top;}
+
+
+
+section.main .content { margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px;}
+
+section.main aside h3 a { color: #000; text-decoration: none; }
+section.main aside h3 a:hover { text-decoration: underline;}
+
+
+section.main aside .content.trending { background-image: url(../img/plastic-bottles-recycling-ideas-53.jpg); background-position-x: 0px; }
+
+section.main aside .content.find-it { background-image:url(../img/plastic-bottles-recycling-ideas-42.jpg);background-position-x: 0px;}
+section.main aside .content.tools { background-image:url(../img/plastic-bottles-recycling-ideas-11.jpg);background-position-x: 0px;}
+
+
+
+div.clear {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 0;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 94%;
+    padding: 3%;
+}
+
+
+
+
+
+
+/* section -Atmosphere */
+
+
+
+
+
+
+
+section.atmosphere { background-color: #0000ff; padding-top: 40px; padding-bottom: 30px; color: #fff; }
+
+
+section.atmosphere article { padding: 0 20px 0 515px; background: url(../img/chemical%20safety.png) no-repeat 0 5px;
+min-height: 220px; }
+
+section.atmosphere1 article { padding: 0 20px 0 515px; background: url(../img/DontMissThis.gif) no-repeat 0 5px;
+    
+min-height: 220px;background-color: aqua; }
+
+/* section -How-to */
+
+/* section -How-to (Seating & Lightning) */
+
+section.how-to { background-color: #ADD8E6; position: relative; }
+
+section.how-to aside { width:30%; float: left; margin-right: 10px; }
+
+section.how-to aside .content { padding: 50px 40px 40px 0; }
+
+section.how-to aside .content img { display: block; margin-bottom: 15px; width: 100%; }
+
+section.how-to aside .content h4 { margin-bottom: 0; }
+
+section.how-to aside .content p { margin-bottom: .5em; }
+
+section.how-to aside .content a {display: inline-block; color: #cc6633; font-weight: 700; }
+
+
+
+
+
+
+
+
+
+/*   Navigation   */
+nav {
+    background-color: #337ab7;
+    position: absolute;
+    top: 120px; left: 0px;
+    padding: 38px 20 0 0;
+    width: 100%;
+}
+
+nav::after { content:''; display:block; clear:both; }
+/*   Navigation for unordered list  */
+nav ul { list-style:none; margin: 0; padding: 0px;}
+nav ul li:hover { background-color: deepskyblue;}
+nav ul li:hover > ul { display: block; }
+/*   Navigation for list order anchor links  */
+
+nav ul li a {
+    display: inline-block;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+nav ul li a:visited {color: greenyellow;}
+nav ul li a:hover { background-color: #87ceeb;}
+
+nav ul ul { position:absolute; top: 100%; background-color: #2b0306; display: none;}
+
+nav ul ul li { position: relative; }
+nav ul ul ul { left:100%; top:0px; }
+
+
+
+/*top-level*/
+nav > ul { padding-left:200px;}
+nav >ul > li { float:left; }
+nav >ul >li >a { width:auto; padding 10px 20px 15px 20px; }
+
+
+nav a[aria-haspopup="true"]::after {
+    
+    content:'';
+    display:block; width: 0px; height: 0px;
+    position:absolute;
+    top: 16px; right: 15px;
+    border-top: 4px solid transparent;
+    border-bottom:4px solid transparent;
+    border-left:4px solid #fff;
+}
+
+nav > ul >li > a[aria-haspopup="true"]::after {
+    border-left:4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left:20px; right:auto;
+    bottom: 6px; top:auto;
+
+}
+
+
+}
+
+/*   Navigation1   */
+nav1 {
+    background-color: black;
+    position: absolute;
+    top: 730px; left: 0px;
+    padding: 38px 20 0 0;
+    width: 100%;
+}
+
+nav1::after { content:''; display:block; clear:both; }
+/*   Navigation for unordered list  */
+nav1 ul { list-style:none; margin: 0; padding: 0px;}
+nav1 ul li:hover { background-color: deepskyblue;}
+nav1 ul li:hover > ul { display: block; }
+/*   Navigation for list order anchor links  */
+
+nav1 ul li a {
+    display: inline-block;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+nav1 ul li a:visited {color: greenyellow;}
+nav1 ul li a:hover { background-color: #87ceeb;}
+
+nav1 ul ul { position:absolute; top: 100%; background-color: #2b0306; display: none;}
+
+nav1 ul ul li { position: relative; }
+nav1 ul ul ul { left:100%; top:0px; }
+
+
+
+/*top-level*/
+nav1 > ul { padding-left:200px;}
+nav1 >ul > li { float:left; }
+nav1 >ul >li >a { width:auto; padding 10px 20px 15px 20px; }
+
+
+nav1 a[aria-haspopup="true"]::after {
+    
+    content:'';
+    display:block; width: 0px; height: 0px;
+    position:absolute;
+    top: 16px; right: 15px;
+    border-top: 4px solid transparent;
+    border-bottom:4px solid transparent;
+    border-left:4px solid #fff;
+}
+
+nav1 > ul >li > a[aria-haspopup="true"]::after {
+    border-left:4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left:20px; right:auto;
+    bottom: 6px; top:auto;
+
+}
+
+
+div.bottomnav {background-color: firebrick}
+
+
+
+
+/* Footer */
+footer { font-size: .8em; margin:40px; color: #999;}
+footer .content { display: inline; }
+
+footer a { margin-left: 20px; color: #777; }
+footer a:visited { color:#777; }
+footer a:hover {color:#000; }
+
+
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+form header {
+  margin: 0 0 20px 0; 
+}
+form header div {
+  font-size: 90%;
+  color: #999;
+}
+form header h2 {
+  margin: 0 0 5px 0;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 80%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width: 1000px) {
+    
+    h1{font-size: 2.4em;}
+    /* Header */
+    header div.hero { left:56%;}
+    header div.hero h1 { margin-bottom: 20px;}
+    /* Section Atmosphere */
+    section.atmosphere article { padding-left: 400px; background-size: 375px auto;}
+  /* Section Atmosphere article*/
+    section.atmosphere article { padding: 0 20px 0 515px; background: url(../img/chemical%20safety.png) no-repeat 0 5px;
+min-height: 120px; }
+    
+    section.atmosphere1 article { padding: 0 20px 0 515px; background: url(../img/DontMissThis.gif) no-repeat 0 5px;
+        min-height: 120px;}
+    img.article_pic2 {
+    width: 350px;
+    height:233px
+}
+}
+
+@media screen and (max-width: 825px) {
+    h1{font-size: 2.0em;}
+/* Header */
+    header { height:200px; background-image: url(../img/);}
+    header div.hero { top: 0px; left:30%;}
+/* Section Atmosphere */
+    section.atmosphere article { padding-left: 400px; background-size: 275px auto;}
+section.atmosphere1 article { padding: 0 20px 0 515px; background: url(../img/DontMissThis.gif) no-repeat 0 5px;
+        min-height: 80px;}
+img.article_pic2 {
+    width: 320px;
+    height:213px
+}
+
+@media screen and (max-width: 760px) {
+ /* Header */
+    header { height:280px; background-image: url(../img);}   
+    h1 { font-size: 1.8em; }
+    h1 { font-size: 1.4em; }
+    h1 { font-size: 1.1em; }
+    h2 { font-size: 1.4em;}
+    a.btn { font-size: 1em;}
+/* Header */
+    header a.logo { width: 145px; height: 60px;}
+    header div.hero { top:0px; left: 48%;}
+    
+    /* Section-Main */
+    section.main { margin-top: 10px; margin-bottom: 10px;}
+    section.main aside div.content { background-size: 55px 55px; padding-top: 60px;}
+    section.fullarticle aside div.content { background-size: 55px 55px; padding-top: 60px;}
+    /* Section-How-to */
+    section.how-to aside div.content img {width: 85%;}
+
+ img.article_pic2 {
+    width: 250px;
+    height:166px
+}   
+    img.article_pic1 {
+    width: 500px;
+    height:280px
+}    
+    
+    /* Navigation */
+    nav { padding-top: 80px; }
+        nav > ul {padding-left: 10px;}
+    }
+
+
+
+@media screen and (max-width: 625px) {
+    #search-form 
+{
+    height: 20px;}
+img.article_pic1 {
+    width: 350px;
+    height:196px
+}    
+   img.article_pic2 {
+    width: 200px;
+    height:133px
+} 
+ #search-box input[type="text"]
+{
+width: 90%;
+padding: 0px 0 12px 0.8em;
+color: #333;
+outline: none;
+}   
+    
+img.safety_logo { position: absolute;}  
+h1{ font-size: 1em; }
+h3 { margin-bottom: 0px; }
+a.btn { font-size: .9em; }
+/* adjusting_main section */    
+ section.atmosphere { padding-top: 10px;}
+/* Header */
+    header { height: 160px; background-color: #808080; background-position:left top;}
+    header a.logo {
+        width: 100%; height:66px;
+        left: 0px; top: 0px;
+        background-color: rgba(0,0,0,.65);
+        background-size: 112px; 46px;
+        background-position: 20px center;
+        display:none;
+    }
+    header div.hero { width: 300px; top:10px; left: 230px;}
+    header div.hero h1 { margin-bottom: 10px;}
+    
+    /* Section Main */
+    
+    section.main aside{ width:100%; float: none; text-align: left;}
+    section.main aside div.content {
+        
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+    }
+    
+    section.fullarticle aside div.content {
+        
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+        
+    }
+    /* Atmosphere */
+    section.atmosphere article { padding: 320px 20px 0px 0px; background-size: 300px auto; min-height:initial;}
+    
+    section.atmosphere1 article { padding: 0 20px 0 515px; background: url(../img/DontMissThis.gif) no-repeat 0 5px;
+        min-height: initial; background-size: 300px;}
+    
+    /* section- How To */
+    
+    section.how-to aside { width: 100%; float: none; margin:0; position: relative;}
+    section.how-to aside div.content { padding: 20px 20px 20px 150px; }
+    section.how-to aside div.content p { font-size: .9em; }
+    section.how-to aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+        
+        
+    }
+    
+   
+    
+   
+    /* Navigation */
+
+    nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c;} 
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul {display:block; position: static; }
+    
+    nav > ul { padding: 0;}
+    nav > ul > li { float:none; margin-top: 25px;}
+
+    
+    nav ul li:hover { background-color: none;}
+    
+    nav ul li a {
+        width:auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+        
+    }
+    
+    nav ul li a:hover {background-color: rgba(255,255,255,.2);}
+    
+    
+    nav ul ul { background: none; }
+    
+    nav ul ul li a { margin-left: 30px; }
+    
+    nav ul ul ul li a { margin-left: 60px; }
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    
+    /* Footer  */
+    
+    footer div.content { display: block; margin-top: 15px;}
+    footer div.content a { margin:0 20 0 0;}
+    
+}
+
+@media screen and (max-width: 425px) {
+  
+    #search-form 
+{
+    height: 20px;}
+    img.article_pic1 {
+    width: 250px;
+    height:140px
+}   
+     #search-box input[type="text"]
+{
+width: 90%;
+padding: 0px 0 12px 0.8em;
+color: #333;
+outline: none;
+}   
+    .cancelbtn {
+        width: 13%;}
+    /* Header  */
+      
+    header { height: 120px; background-image: url(../images/banner_425.jpg); }
+    header a.logo {
+        height: 36px; background: rgba (0,0,0,.65) no-repeat center center;
+        background-size: 126px 17px;
+        display:none;
+        
+    }
+    
+    header div.hero { width: 50%; left: 195px; top: 46px; text-align: center;}
+    
+    header div.hero h1 {font-size: 0.8em; margin-bottom: 10px;}
+    
+    header div.hero a.btn { padding: 2px 30px; font-size: .8em;}
+
+    header div.hero a.btn span { display: none; }
+    
+}
+
+/* Section - how-to */
+
+
+section.how-to aside div.content { padding: 140px 20px 20px 0px; }
+section.how-to aside div.content img { width: auto; height: 100px; top: 30px; }
+
+section.how-to aside div.content img { width: auto; height: 100px;}
+
+
+/* Footer */
+footer::after { content:''; display: block; clear: both;}
+
+footer div.content a {
+    display: inline-block; margin: 0 0 10px 0;
+    float:right;
+    clear: both;
+    font-size: 1em;   
+}
+    /* BottomNav */
+    nav1 { display: none;}
